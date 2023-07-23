@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Cursos | Slackjeff</title>
+    <style>
+        body {
+            background-color: #222;
+            color: #00ff00;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            padding: 30px;
+            border-radius: 10px;
+            background-color: rgba(0, 0, 0, 0.8);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(5px);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            color: #00ff00;
+            animation: neon-glow 2s linear infinite;
+        }
+
+        p {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+
+        @keyframes neon-glow {
+            0% {
+                text-shadow: 0 0 10px #00ff00;
+            }
+            50% {
+                text-shadow: 0 0 20px #00ff00;
+            }
+            100% {
+                text-shadow: 0 0 10px #00ff00;
+            }
+        }
+                
+         .cursos-gravados {
+            font-size: 48px;
+            margin: 5px;
+            color: rgb(23, 227, 135);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+          .cursos-ao-vivo {
+            font-size: 48px;
+            margin: 5px;
+            color: #9c27b0;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Meus Cursos</h1>
+        <div class="green-text">
+        <p>Seja bem vindo a área dos cursos que administro! Abaixo você pode escolher se deseja os cursos gravados ou os ao vivos que ainda vão acontecer!</p>
+        </div>
+        <p><a href="#" class="cursos-gravados">Cursos Gravados</a></p>
+        <p><a href="#" class="cursos-ao-vivo">Cursos Ao-Vivo</a></p>
+    </div>
+</body>
+
+</html>
+
